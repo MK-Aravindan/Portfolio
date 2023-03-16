@@ -5,6 +5,7 @@ import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.avif";
 import Proj6 from "../assets/proj6.jpg";
 import Proj7 from "../assets/proj7.jpg";
+import Proj8 from "../assets/proj8.jpg";
 
 export const ProjectList = [
   {
@@ -48,5 +49,11 @@ export const ProjectList = [
     image: Proj7,
     skills: "Python with py Packages.",
     url: "https://github.com/MK-Aravindan/virtual-assistant.git",
+  },
+  {
+    name: "Audiobook",
+    image: Proj8,
+    skills: "Python with py Packages read the files in pdf formate.",
+    url: "https://github.com/MK-Aravindan/audiobook.git",
   },
 ];
