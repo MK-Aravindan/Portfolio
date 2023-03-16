@@ -36,7 +36,7 @@ export const ProjectList = [
     name: "JWT Authentication & Authorization",
     image: Proj5,
     skills: "Spring Boot, Spring Security and JSON Web Token.",
-    url: "https://github.com/MK-Aravindan/JWT-Authentication-Authorization.git",
+    url: "https://github.com/MK-Aravindan/Spring-JWT-Security.git",
   },
   {
     name: "OAuth 2.0",
