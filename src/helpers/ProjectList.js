@@ -4,6 +4,7 @@ import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.avif";
 import Proj6 from "../assets/proj6.jpg";
+import Proj7 from "../assets/proj7.jpg";
 
 export const ProjectList = [
   {
@@ -41,5 +42,11 @@ export const ProjectList = [
     image: Proj6,
     skills: "Spring Boot OAuth2.0 Provider.",
     url: "https://github.com/MK-Aravindan/oauth2.0-spring.git",
+  },
+  {
+    name: "Virtual Assistant",
+    image: Proj7,
+    skills: "Python with py Packages.",
+    url: "https://github.com/MK-Aravindan/virtual-assistant.git",
   },
 ];
