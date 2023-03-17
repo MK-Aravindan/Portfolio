@@ -30,14 +30,14 @@ const Home = () => {
         <h1>Skills</h1>
         <ol className="list">
           <li className="item">
-            <h2>UI/UX</h2>
+            <h2>Frontend</h2>
             <span>
               Hyper Text Markup Language (HTML), Java Server Pages (JSP),
               Cascading Style Sheets (CSS), React JS.
             </span>
           </li>
           <li className="item">
-            <h2>Server and Data</h2>
+            <h2>Backend</h2>
             <span>
               Spring Boot, Java Date Base Connectivity (JDBC), MySQL, Git & GitHub.
             </span>
