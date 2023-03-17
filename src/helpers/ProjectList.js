@@ -6,6 +6,7 @@ import Proj5 from "../assets/proj5.avif";
 import Proj6 from "../assets/proj6.jpg";
 import Proj7 from "../assets/proj7.jpg";
 import Proj8 from "../assets/proj8.jpg";
+import Proj9 from "../assets/proj9.jpg";
 
 export const ProjectList = [
   {
@@ -55,5 +56,11 @@ export const ProjectList = [
     image: Proj8,
     skills: "Python with py Packages read the files in pdf formate.",
     url: "https://github.com/MK-Aravindan/audiobook.git",
+  },
+  {
+    name: "JWT in React -> Spring Backend",
+    image: Proj9,
+    skills: "Get the JWToken from Spring Security and access in here.",
+    url: "https://github.com/MK-Aravindan/react-jwt.git",
   },
 ];
