@@ -12,7 +12,7 @@ const Home = () => {
         <h2> M K Aravindan</h2>
         <div className="prompt">
           <p>
-            I am a hobbyist full-stack developer with a passion for learning and
+            I am a hobbyist Full Stack Developer with a passion for learning and
             creating.
           </p>
           <a href="https://www.linkedin.com/in/m-k-aravindan-976728231/">
