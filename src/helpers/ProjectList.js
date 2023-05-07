@@ -14,7 +14,7 @@ export const ProjectList = [
     image: Proj1,
     skills: "React JS, Spring Boot, MySQL.",
     description:
-      "It is the Social Blogging application, personal blogging platform that allows users to create, publish, and manage their own blog posts. The main functionality of the application is the ability to add and delete blog posts. Once a blog post is created, it is added to the user's blog and can be viewed by anyone who visits the blog. It is not yet deployed.    ",
+      "This is a personal blogging platform called the Social Blogging application, which enables users to create, publish, and manage their blog posts. The key feature of the application is the ability to add and delete blog posts. Any visitor to the user's blog can view the published blog post. The application is not yet deployed.",
     url: "https://github.com/MK-Aravindan/sckascripts-blogger.git",
   },
   {
@@ -22,7 +22,7 @@ export const ProjectList = [
     image: Proj2,
     skills: "React JS",
     description:
-      "A joke generator application is a simple web application that cracks joke to the user. This application built using the React.js framework and an online API provider would allow users to generate random jokes and display them on the screen.",
+      "The joke generator application is a React.js based web application that delivers jokes to the user. It utilizes an online API provider to generate random jokes and display them on the screen.",
     url: "https://github.com/MK-Aravindan/jokes_generator.git",
   },
   {
@@ -30,7 +30,7 @@ export const ProjectList = [
     image: Proj3,
     skills: "React JS, Spring Boot, MySQL.",
     description:
-      "Using LOB and BLOB method the images are converted into binary and stored in the database.",
+      "The images are converted into binary using the LOB and BLOB method and then stored in the database.",
     url: "https://github.com/MK-Aravindan/image-PostReceiver.git",
   },
   {
@@ -38,42 +38,47 @@ export const ProjectList = [
     image: Proj4,
     skills: "React JS",
     description:
-      "It is a collection of your work and achievements that showcase my skills and expertise to potential employers or clients.",
+      "This resume includes a link in the header section that displays a collection of my work and achievements, demonstrating my skills and expertise to potential employers or clients.",
     url: "https://github.com/MK-Aravindan/Portfolio.git",
   },
   {
     name: "JWT Authentication & Authorization",
     image: Proj5,
     skills: "Spring Boot, Spring Security and JSON Web Token.",
-    description: "Authentication and Authorisation application used to Signup and Login.",
+    description:
+      "The Authentication and Authorization application is utilized for user signup and login purposes.",
     url: "https://github.com/MK-Aravindan/Spring-JWT-Security.git",
   },
   {
     name: "OAuth 2.0",
     image: Proj6,
     skills: "Spring Boot",
-    description: "Signup and Login through Google's API and GitHub's API.",
+    description:
+      "Enable user Signup and Login through Google's API and GitHub's API using OAuth 2.0.",
     url: "https://github.com/MK-Aravindan/oauth2.0-spring.git",
   },
   {
     name: "Virtual Assistant",
     image: Proj7,
     skills: "Python",
-    description: "VR assistant like Alexa, at the developing stage. Developed through PY packages.",
+    description:
+      "Currently in development, a virtual reality assistant similar to Alexa is being created using PY packages.",
     url: "https://github.com/MK-Aravindan/virtual-assistant.git",
   },
   {
     name: "Audiobook",
     image: Proj8,
     skills: "Python",
-    description: "Python with py Packages read the files in pdf formate.",
+    description:
+      "Python, with the help of py packages, can read files in PDF format.",
     url: "https://github.com/MK-Aravindan/audiobook.git",
   },
   {
-    name: "JWT in React -> Spring Backend",
+    name: "JWT Full-Stack",
     image: Proj9,
     skills: "React JS and Spring Boot",
-    description: "Get the JWToken from Spring Security and access in through React JS. A complete Full Stack Application for Signup and Login.",
+    description:
+      "Obtain the JWToken from Spring Security to access it through React JS. This is a Full Stack Application that facilitates user Signup and Login.",
     url: "https://github.com/MK-Aravindan/react-jwt.git",
   },
 ];

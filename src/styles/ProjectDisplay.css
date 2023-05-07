@@ -1,6 +1,6 @@
 .project {
   width: 100%;
-  height: auto;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .project img {
-  width: 700px;
+  width: 650px;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -29,9 +29,9 @@
 .project p {
   font-size: 25px;
   color: #3e497a;
-  width: 800px;
+  width: 90%;
   margin-top: -10px;
-  text-align: justify;
+  text-align: center;
 }
 
 .project svg {
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 600px) {
   .project {
-    height: auto;
+    height: fit-content;
     margin-top: 10px;
     margin-bottom: -150px;
   }
@@ -62,10 +62,10 @@
   .project p {
     font-size: 13px; 
     color: #3e497a;
-    width: 90%; 
+    width: 90%;
     margin-top: -10px;
-    text-align: justify;
-  }
+    text-align: center;
+    }
 
   .project svg {
     font-size: 30px;
