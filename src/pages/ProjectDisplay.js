@@ -10,7 +10,8 @@ const ProjectDisplay = () => {
     <div className="project">
       <h1>{project.name}</h1>
       <img src={project.image} alt="" />
-      <p>{project.skills}</p>
+      <h4>{project.skills}</h4>
+      <p>{project.description}</p>
       <a href={project.url}>
         <GitHubIcon />
       </a>

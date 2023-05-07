@@ -1,6 +1,6 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,9 +21,17 @@
   margin-top: 20px;
 }
 
-.project p {
-  font-size: 40px;
+.project h4 {
+  font-size: 30px;
   color: #3e497a;
+}
+
+.project p {
+  font-size: 25px;
+  color: #3e497a;
+  width: 800px;
+  margin-top: -10px;
+  text-align: justify;
 }
 
 .project svg {
@@ -44,11 +52,19 @@
   }
 
   .project img {
-    width: 100%;
+    width: 90%;
+  }
+
+  .project h4 {
+    font-size: 15px;
   }
 
   .project p {
-    font-size: 25px;
+    font-size: 13px; 
+    color: #3e497a;
+    width: 90%; 
+    margin-top: -10px;
+    text-align: justify;
   }
 
   .project svg {
