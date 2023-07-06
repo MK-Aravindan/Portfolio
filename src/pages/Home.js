@@ -33,13 +33,13 @@ const Home = () => {
             <h2>Frontend</h2>
             <span>
               Hyper Text Markup Language (HTML), Java Server Pages (JSP),
-              Cascading Style Sheets (CSS), React JS.
+              Cascading Style Sheets (CSS), React JS, Next JS.
             </span>
           </li>
           <li className="item">
             <h2>Backend</h2>
             <span>
-              Spring Boot, Java Date Base Connectivity (JDBC), MySQL, Git & GitHub.
+              Spring Boot, Java Date Base Connectivity (JDBC), MySQL, Mongo DB, Git & GitHub.
             </span>
           </li>
           <li className="item">

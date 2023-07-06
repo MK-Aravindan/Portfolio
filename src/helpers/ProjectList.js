@@ -7,6 +7,7 @@ import Proj6 from "../assets/proj6.jpg";
 import Proj7 from "../assets/proj7.jpg";
 import Proj8 from "../assets/proj8.jpg";
 import Proj9 from "../assets/proj9.jpg";
+import Proj10 from "../assets/proj10.png";
 
 export const ProjectList = [
   {
@@ -80,5 +81,13 @@ export const ProjectList = [
     description:
       "Obtain the JWToken from Spring Security to access it through React JS. This is a Full Stack Application that facilitates user Signup and Login.",
     url: "https://github.com/MK-Aravindan/react-jwt.git",
+  },
+  {
+    name: "Next.js Authentication",
+    image: Proj10,
+    skills: "Next JS and Mongo DB",
+    description:
+      "The full-stack Next.js application includes authentication and authorization with JWT tokens and a mail sender function.",
+    url: "https://github.com/MK-Aravindan/Next.js-Auth",
   },
 ];
