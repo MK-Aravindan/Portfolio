@@ -8,6 +8,7 @@ import Proj7 from "../assets/proj7.jpg";
 import Proj8 from "../assets/proj8.jpg";
 import Proj9 from "../assets/proj9.jpg";
 import Proj10 from "../assets/proj10.png";
+import Proj11 from "../assets/proj11.jpg";
 
 export const ProjectList = [
   {
@@ -89,5 +90,13 @@ export const ProjectList = [
     description:
       "The full-stack Next.js application includes authentication and authorization with JWT tokens and a mail sender function.",
     url: "https://github.com/MK-Aravindan/Next.js-Auth",
+  },
+  {
+    name: "Node and Express JS Authentication",
+    image: Proj11,
+    skills: "Node JS, Express JS and Mongo DB",
+    description:
+      "The Node.js backend application includes authentication and authorization with the help of Express.js and MongoDB database.",
+    url: "https://github.com/MK-Aravindan/Express-Auth.git",
   },
 ];

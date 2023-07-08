@@ -39,7 +39,8 @@ const Home = () => {
           <li className="item">
             <h2>Backend</h2>
             <span>
-              Spring Boot, Java Date Base Connectivity (JDBC), MySQL, Mongo DB, Git & GitHub.
+              Spring Boot, Node JS and Express JS, Java Date Base Connectivity
+              (JDBC), MySQL, Mongo DB, Git & GitHub.
             </span>
           </li>
           <li className="item">
