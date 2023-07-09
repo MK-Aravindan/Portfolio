@@ -5,6 +5,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
+import "../styles/Experience.css";
 
 const Experience = () => {
   return (
@@ -19,6 +20,10 @@ const Experience = () => {
           <h3 className="vertical-timeline-element-title">
             Kurinji Matriculation Higher Secondary School, Namakkal, Tamil Nadu
           </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            High School Degree
+          </h4>
+
           <p>Secondary and Higher School</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -44,9 +49,11 @@ const Experience = () => {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Graduate Intern - Virtusa
+            Virtusa - Chennai TN
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">Chennai, TN</h4>
+          <h4 className="vertical-timeline-element-subtitle">
+            Graduate Intern
+          </h4>
           <p>Intern at Virtusa through VSAP program</p>
         </VerticalTimelineElement>
 
