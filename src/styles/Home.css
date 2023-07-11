@@ -14,14 +14,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to right, #21325e 30%, #4263a0 60%);
+  background: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0) 75%);
+  background-color: rgb(0, 0, 0);
   color: #f0f0f0;
 }
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
-  color: #e9d35b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.703);
+  color: rgb(253, 143, 28);
   height: 50px;
   margin-top: 10px;
 }
@@ -36,34 +38,40 @@
   font-size: 65px;
   margin: 5px 20px;
   color: white;
-  transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out;
 }
 
 .prompt svg:hover {
-  transform: scale(1.3); 
+  transform: scale(1.3);
+  color: rgb(253, 143, 28);
 }
 
 .skills {
   font-size: 35px;
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  color: #ffffff;
   width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   margin-bottom: -150px;
-  background-color: #f0f0f0; 
-  padding: 50px 0; 
+  background-color: rgb(24, 24, 24);
+  padding: 50px 0;
 }
 
 .skills h1 {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
-  color: #3e497a;
+  color: #ffffff;
   width: fit-content;
   margin-top: 60px;
   padding: 15px;
-  background-color: white;
-  border-radius: 10px;
+  background-color: rgba(49, 49, 49, 0.5);
+  border: 1px solid rgba(108, 108, 108, 0.3);
+  border-radius: 12px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
   display: inline-block;
 }
@@ -72,7 +80,7 @@
   list-style: none;
   width: 60%;
   padding: 0;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .skills h2 {
@@ -83,6 +91,21 @@
   font-size: 20px;
 }
 
+.item1,
+.item2,
+.item3 {
+  opacity: 0;
+  transform: translateX(40%);
+  transition: opacity 5s ease, transform 6s ease;
+}
+
+.item1.show,
+.item2.show,
+.item3.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .about img {
   width: 250px;
   height: 250px;
@@ -90,7 +113,7 @@
   border-radius: 50%;
   margin-top: -30px;
   border: 5px solid white;
-  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.7); /* Added box shadow */
+  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.7);
 }
 
 @media only screen and (max-width: 600px) {
@@ -110,12 +133,11 @@
 
   .prompt svg {
     margin: 5px 7px;
-    transition: all 0.3s ease-in-out; 
+    transition: all 0.3s ease-in-out;
   }
-  
 
   .prompt svg:hover {
-    transform: scale(1.2); 
+    transform: scale(1.2);
   }
 
   .skills {
@@ -127,7 +149,26 @@
     padding: 0;
   }
 
+  .skills h1 {
+    font-size: 35px;
+  }
+
   .skills h2 {
     font-size: 30px;
+  }
+
+  .item1,
+  .item2,
+  .item3 {
+    opacity: 0;
+    transform: translateX(-40%);
+    transition: opacity 5s ease, transform 6s ease;
+  }
+
+  .item1.show,
+  .item2.show,
+  .item3.show {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
