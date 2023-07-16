@@ -37,7 +37,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="about">
-        <img src={profileImage} alt="" />
+        <img src={profileImage} alt="M K Aravindan Profile" />
         <h2> M K Aravindan</h2>
         <div className="prompt">
           <p>
