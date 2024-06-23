@@ -44,7 +44,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022 - Present"
+          date="2022 - 2023"
           iconStyle={{ background: "#fd8f1c", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -55,6 +55,20 @@ const Experience = () => {
             Graduate Intern
           </h4>
           <p>Intern at Virtusa through VSAP program</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="2023 - Present"
+          iconStyle={{ background: "#fd8f1c", color: "#fff" }}
+          icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            7dxperts - Bengaluru KA
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Data Engineer
+          </h4>
+          <p>Mainly building and developing the backend and middleware parts and handling the Data.</p>
         </VerticalTimelineElement>
 
         {/* <VerticalTimelineElement

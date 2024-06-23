@@ -15,7 +15,7 @@ const Footer = () => {
           <LinkedInIcon />
         </a>
       </div>
-      <p>&copy; 2023 m-k-aravindan.web.app</p>
+      <p>&copy; 2024 m-k-aravindan.web.app</p>
     </div>
   );
 };

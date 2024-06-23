@@ -21,7 +21,7 @@
 
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 60px;
+  font-size: 45px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.703);
   color: rgb(253, 143, 28);
   height: 50px;
@@ -30,8 +30,18 @@
 
 .about .prompt {
   width: 50%;
-  font-size: 30px;
-  margin-top: -20px;
+  font-size: 25px;
+  margin-top: -25px;
+}
+
+.about img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -30px;
+  border: 5px solid rgb(0, 0, 0);
+  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.7);
 }
 
 .prompt svg {
@@ -93,7 +103,9 @@
 
 .item1,
 .item2,
-.item3 {
+.item3,
+.item4,
+.item5 {
   opacity: 0;
   transform: translateX(40%);
   transition: opacity 5s ease, transform 6s ease;
@@ -101,19 +113,11 @@
 
 .item1.show,
 .item2.show,
-.item3.show {
+.item3.show,
+.item4.show,
+.item5.show {
   opacity: 1;
   transform: translateX(0);
-}
-
-.about img {
-  width: 250px;
-  height: 250px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-top: -30px;
-  border: 5px solid white;
-  box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.7);
 }
 
 @media only screen and (max-width: 600px) {
@@ -159,7 +163,9 @@
 
   .item1,
   .item2,
-  .item3 {
+  .item3,
+  .item4,
+  .item5 {
     opacity: 0;
     transform: translateX(-40%);
     transition: opacity 5s ease, transform 6s ease;
@@ -167,7 +173,9 @@
 
   .item1.show,
   .item2.show,
-  .item3.show {
+  .item3.show,
+  .item4.show,
+  .item5.show {
     opacity: 1;
     transform: translateX(0);
   }
