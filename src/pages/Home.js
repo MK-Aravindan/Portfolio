@@ -75,27 +75,23 @@ const Home = () => {
         <ol className="list">
           <li className="item1" ref={ref1}>
             <h2>Programming Languages</h2>
-            <span>
-              Python, Java and JavaScript (Begineer)
-            </span>
+            <span>Proficient: Python <br />Learning Proficiency: C, Java and JavaScript</span>
           </li>
           <li className="item2" ref={ref2}>
-            <h2>Database</h2>
-            <span>
-              BigQuery, Microsoft SQL Server, PostgreSQL, MySQL
-            </span>
+            <h2>Databases</h2>
+            <span>BigQuery, Snowflake, Microsoft SQL Server, PostgreSQL, MySQL</span>
           </li>
           <li className="item3" ref={ref3}>
-            <h2>Processing Tools</h2>
+            <h2>Data Processing Tools</h2>
             <span>Databricks, Pandas, PySpark</span>
           </li>
           <li className="item4" ref={ref4}>
             <h2>Technologies and Frameworks</h2>
-            <span>HTML, CSS, Git and GitHub, ReactJS (Begineer)</span>
+            <span>Streamlit (Python), HTML, CSS, Git and GitHub <br />Familiar with: ReactJS</span>
           </li>
           <li className="item5" ref={ref5}>
-            <h2>Others</h2>
-            <span>Problem Solving, Organizational</span>
+            <h2>Additional Skills</h2>
+            <span>Problem Solving, Organizational Abilities</span>
           </li>
         </ol>
       </div>
