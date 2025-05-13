@@ -57,7 +57,7 @@ const Home = () => {
         <h2>ARAVINDAN M K</h2>
         <div className="prompt">
           <p>
-          I love to build, develop, handle and dabble in code. Data? Yeah, I handle that too!
+          I love to build, train, develop, handle and dabble in code. Data? Yeah, I handle that too!
           </p>
           <a href="https://www.linkedin.com/in/m-k-aravindan-976728231/">
             <LinkedInIcon />

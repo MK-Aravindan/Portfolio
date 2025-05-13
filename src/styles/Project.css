@@ -9,9 +9,8 @@
   margin-bottom: -150px;
   background-color: rgb(24, 24, 24);
   padding: 50px 0;
-  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+  /* Updated to use Inter */
+  font-family: 'Inter', sans-serif;
 }
 
 .projects h1 {
@@ -19,12 +18,16 @@
   font-size: 30px;
   text-align: center;
   font-weight: 400;
+  /* Using Inter for project heading */
+  font-family: 'Inter', sans-serif;
 }
 
 .projects .projectTitle {
   text-align: center;
   color: #3e497a;
   font-size: 60px;
+  /* Using Inter for project title */
+  font-family: 'Inter', sans-serif;
 }
 
 .projectList {
@@ -46,6 +49,8 @@
   text-align: center;
   transition: all 0.3s ease-in-out;
   background-color: white;
+  /* Using Inter for project item text */
+  font-family: 'Inter', sans-serif;
 }
 
 .projectItem:hover {
@@ -69,6 +74,8 @@
 .projectItem h1 {
   font-size: 25px;
   margin-top: 20px;
+  /* Using Inter for project item heading */
+  font-family: 'Inter', sans-serif;
 }
 
 @media only screen and (max-width: 1300px) {

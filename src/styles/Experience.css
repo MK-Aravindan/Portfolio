@@ -32,6 +32,8 @@
   font-size: 14px;
   color: #fd8f1c;
   margin-bottom: 10px;
+  /* Using Inter for dates */
+  font-family: 'Inter', sans-serif;
 }
 
 .vertical-timeline-element-icon {
@@ -47,6 +49,8 @@
   background:rgba(49, 49, 49, 0.5);
   border-radius: 10px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  /* Using Inter for content */
+  font-family: 'Inter', sans-serif;
 }
 
 .vertical-timeline-element-title {
@@ -54,12 +58,13 @@
   font-weight: bold;
   color: white;
   margin-bottom: 10px;
+  /* Using Inter for titles */
+  font-family: 'Inter', sans-serif;
 }
 
 .vertical-timeline-element-subtitle {
-  font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-  'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  /* Updated to use Inter */
+  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: bold;
   color: #fd8f1c;
@@ -70,17 +75,19 @@
   font-size: 16px;
   color: white;
   margin-top: 10px;
+  /* Using Inter for paragraph text */
+  font-family: 'Inter', sans-serif;
 }
 
 @media only screen and (max-width: 1170px) {
   .vertical-timeline-element-icon {
-    margin-left: 22px; 
+    margin-left: 22px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .vertical-timeline-element-icon {
-    margin-left: 22px; 
+    margin-left: 22px;
   }
 
   .vertical-timeline-element-date {
